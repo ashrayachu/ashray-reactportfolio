@@ -1,0 +1,129 @@
+.Navbar{
+    background: linear-gradient(to right, white, yellow);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+font-family: 'Poppins', sans-serif;
+   
+}
+.left-nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Ntitle{
+  font-size: 30px;
+  padding: 5px 10px;
+    /* background-color: yellow; */
+    color: #212529;
+  /* border: 2px solid yellow; */
+  border-radius: 10px;
+  animation: gradient 1s ease-in-out 1;
+  /* transform: translateY(5px); */
+  background: rgba(255, 255, 255, 0.1);
+  font-family: 'Dancing Script', cursive;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+
+  
+}
+@keyframes gradient {
+  from{
+  font-size: 2px;
+  
+  }
+  to{
+  font-size: 30px;
+       
+  }
+}
+
+.right-nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: aliceblue; */
+    padding: 10px;
+}
+
+.right-nav ul{
+    display: flex ;
+    list-style: none;
+    gap:40px;
+    /* background-color: aqua; */
+   margin-right: 50px;
+}
+
+.right-nav li {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  
+}
+.right-nav li:hover{
+   text-decoration: underline;
+   text-decoration-color: gray;
+ text-underline-offset: 4px;
+
+   
+  }
+  .hiddenLinks{
+    display: none;
+  }
+  .hamburger{
+    display: none;
+  }
+  .active{
+    text-decoration: underline;
+   text-decoration-color: gray;
+ text-underline-offset: 4px;
+
+  }
+  @media only screen and (max-width:600px) {
+ 
+    .right-nav ul {
+    display: none;
+  }
+
+  .left-nav{
+    /* background-color: antiquewhite; */
+    width: 50%;
+  }
+  .Ntitle{  
+    font-size: 20px; 
+  }
+
+    .hamburger{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* background-color: white; */
+    }
+   
+    #close{
+      display: none;
+    }
+    #open li{
+      list-style: none;
+    }
+    #open{
+      width: 100px;
+      height:460px ;
+      display: flex;
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+      gap:20px;
+      /* background-color: white; */
+      margin-top: 50vh;
+      background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+
+
+      
+    }
+ }
+
+  

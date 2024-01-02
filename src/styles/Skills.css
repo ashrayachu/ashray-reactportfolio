@@ -1,0 +1,236 @@
+.SCcontainer{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(to right, yellow, white);
+    gap: 10px;
+}
+/*form*/ 
+.Contact{
+    height: inherit;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+font-family: 'Poppins', sans-serif;
+
+  
+}
+.ContactTitle{
+    
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.form{
+    height: 55vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: purple;
+
+}
+.form form{
+    padding: 30px 10px !important;;
+    background-color: aliceblue;
+    height: 35vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+   gap: 10px;
+   color: gray;
+   box-shadow: 5px 5px 0px 0px yellow;
+   
+}
+.form label{
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif!important;
+    font-weight: 600;
+    font-size: 15px;
+}
+.form input{
+    
+    border: none;
+   outline: none;
+   resize: none;
+   border-radius: 5px;
+   width: 170px;
+   height: 20px;
+   font-size: 15px;
+   padding: 10px;
+ background-color: lightgray;
+}
+.textarea{
+    display: flex;
+
+}
+.textarea label{
+    align-self: center;
+   
+
+}
+.textarea textarea{
+    margin-right: 10px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 10px;
+   font-size: 15px;
+  border: none;
+    background-color: lightgray;
+   outline: none;
+   resize: none;
+}
+
+.formSubmit{
+    border: none;
+    outline: none;
+   resize: none;
+   color: black;
+   background-color: yellow;
+   padding: 7px;
+   border-radius: 10px;
+   box-shadow: 1px 4px 4px 0px  gray;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif!important;
+
+}
+
+.formSubmit:hover{
+   box-shadow: 1px 4px 4px 0px purple
+    
+}
+
+
+
+/*Skills Component css  */
+.Skills{
+    /* background: linear-gradient(180deg, yellow,white); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+font-family: 'Poppins', sans-serif;
+
+}
+.Skills h1{
+    /* backgrou nd-color: aliceblue; */
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+/*Skills Component css  */
+.CircularDiv{
+    display: grid;
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    /* background-color: aqua; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.circularInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    font-size: 20px;
+    padding: 20px;
+    gap: 10px;
+  }
+.CircularBar{
+
+height: 140px;
+
+/* background-color: white; */
+}
+
+@media  only screen and (max-width:600px) {
+    .SCcontainer{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+       flex-direction: column;
+        background: linear-gradient(to right, yellow, white);
+        gap: 10px;
+    }
+    .Contact{
+        height: 80vh;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+      
+    }
+    .Skills{
+        height:calc(150vh - 80vh) ;
+        width: 100%;
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .ContactTitle{
+    
+        /* background-color: aliceblue; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .form{
+        height: 50vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        background-color: purple;
+    
+    }
+    .CircularBar{
+
+        height: 100px;
+        
+        /* background-color: white; */
+        }
+        .circularInner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* background-color: aqua; */
+            font-size: 20px;
+            padding: 20px;
+            gap: 5px;
+          }
+}

@@ -1,0 +1,268 @@
+/* @import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css"; */
+
+.Portfolio{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to left,yellow,white );
+    
+}
+.PSlider{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+   margin-top: 20px;
+    border-radius: 10px;
+    height: 550px;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    width:900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     
+    padding: 20px; 
+    margin-bottom: 60px;
+    /* margin-left: auto; */
+   
+}
+
+.slick-next{
+
+  border-radius: 50%;
+transform: translate(10px,-50px);
+
+/* background: black!important; */
+  
+}
+.slick-prev{
+  transform: translate(-10px,-50px);
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.portfolioCard{
+    color:black;
+    background-color: transparent;
+    height: auto;
+    width: 90%!important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 2px solid black; */
+  
+    }
+.image{
+    height: 350px;
+    width: 100%;
+    border-radius: 10%;
+    background-color: beige;
+    }
+/*Styles for the content below image*/
+.content{
+  /* background-color: aqua; */
+  padding: 20px;
+  width: 100%;
+  height:130px;
+  font-size: 90%;
+  gap:5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+font-family: 'Poppins', sans-serif;
+
+}
+.content a{
+  text-decoration: none;
+  color: #222;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.content a:hover{
+  text-decoration: underline ;
+ 
+
+  color: black;
+}
+
+
+/*Styles for the title inside content*/
+.Ptitle{
+    color: black;
+    font-size: 1.1rem;
+font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+} 
+/*Styles for the heading */
+.Project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 50px !important;
+  font-weight: 900 !important;
+  padding: 20px;
+}
+.languages{
+  padding: 10px;
+  font-size: 1rem!important;
+}
+.languages ul li {
+    
+   display: flex;
+   margin-right: 5px;
+  font-size: 1rem!important;
+  font-weight: 400!important;
+
+}
+/* styles for language[colors] */
+
+.custom-list {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .blue::before {
+    content: '\2022';
+    color: blue;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+
+  }
+  
+  .yellow::before {
+    content: '\2022';
+    color: yellow;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+
+  }
+  .cyan::before {
+    content: '\2022';
+    color: cyan;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+  }
+  .green::before {
+    content: '\2022';
+    color: green;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+  }
+  .orange::before {
+    content: '\2022';
+    color: orange;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+  }
+  .aqua::before {
+    content: '\2022';
+    color: green;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+  }
+  .blue::before {
+    content: '\2022';
+    color: green;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+  }
+
+
+
+
+.launch{
+transform: translateY(5px);
+color: black;
+font-size: 20px !important;
+
+}
+
+.gitProjectLink{ 
+color: black;
+font-size: 20px !important;
+
+margin-right: 5px;
+transform: translateY(5px);
+
+}
+.gitProjectLink:hover{
+   font-size: 24px;
+}
+
+
+/* Styles for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+    .Portfolio{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+      
+    }
+    
+    .PSlider{     
+        height: auto;
+        width: 100%;
+         padding: 0 0;     
+        display: flex;
+        background-color: transparent;
+        
+    }  
+    .slick-arrow {
+      display: hidden;
+    }
+  
+    .portfolioCard{
+         height:auto;
+        width: 100%;
+        padding-top:10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        border-radius: 10px;
+      margin-right: 50px !important;
+    }
+    .content{
+      height: auto;
+        width: 100%;
+        background-color: transparent !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 60%; */
+        font-size: 12px !important;
+       
+      }
+
+      .content li{
+          /* font-size: 60%; */
+          font-size: 10px !important;
+        }
+  }

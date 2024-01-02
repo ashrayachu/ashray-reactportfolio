@@ -1,0 +1,120 @@
+/* .cContainer{
+    height: 300px;
+    width: 450px;   
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Ctitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    color: black;
+    font-size: 1.5 rem;
+    font-weight: 900;
+    font-family: 'Fredericka the Great', serif;
+} */
+
+.cImg{
+    /* background-color: blue; */
+    width:100%;
+    height: 400px;
+    /* padding: 10px; */
+    overflow: hidden;
+}
+.certificateContent{
+    padding: 10px;
+    height: 120px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   gap: 10px;
+font-family: 'Poppins', sans-serif;
+
+  
+}
+.cSrc{
+    color: blue;
+}
+.description{
+    display: flex;
+    height: 65px;
+   font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.Cheading{
+    /* justify-self: flex-start; */
+    font-size: 17px;
+    font-weight: 900;
+    padding: 10px;
+   
+}
+.Claunch{
+    font-size: 20px!important;
+   transform: translateY(5px);
+}
+
+.certificateContent a:hover{  
+    color: black;
+    transform: translateY(10px);
+    }
+
+.certificateContent a{
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 900;
+    justify-content: end;
+
+}
+
+@media only screen and (max-width:650px){
+
+
+
+
+    .cImg{
+     width: 100%;
+     max-height: 250px;
+    }
+    .certificateContent{
+       
+       height:fit-content;
+       /* background-color: aqua; */
+    }
+    .Cheading{
+        /* justify-self: flex-start; */
+        padding:10px;
+        font-size: 11px;
+        font-weight: 900;
+        padding: 5px;
+        display: flex;
+    }
+    .description{
+   font-size: 9px;
+    
+    }
+    .certificateContent a{
+        font-size: 10px;
+        text-decoration: none;
+        color: gray;
+        font-weight: 900;
+        justify-content: end;
+    
+    }
+    .Claunch{
+        font-size: 10px!important;
+       transform: translateY(0px);
+    }
+}
