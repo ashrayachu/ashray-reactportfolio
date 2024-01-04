@@ -4,7 +4,7 @@ import HomePic from '../assets/home.png'
 import {Link} from 'react-scroll'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import Resume from '../assets/AshrayResumePost.pdf'
+import Resume from '../assets/AshrayResume.pdf'
 
 function Home() {
   return (
