@@ -192,6 +192,13 @@ font-family: 'Poppins', sans-serif;
  transform: translateY(-7px);
     margin-right: 3px;
   }
+  .purple::before {
+    content: '\2022';
+    color: purple;
+    font-size: 25px;
+ transform: translateY(-7px);
+    margin-right: 3px;
+  }
 
 
 

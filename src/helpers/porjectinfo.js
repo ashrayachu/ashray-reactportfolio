@@ -3,8 +3,8 @@ import Cosmos from '../assets/cosmos.png'
 import Blog from '../assets/blog.png'
 import Doms from '../assets/domspizza.png'
 import Chat from '../assets/chat.png'
-import Ecommerce from '../assets/ecommerce.png'
-import Summerizer from '../assets/ai-summerizer'
+// import Ecommerce from '../assets/ecommerce.png'
+import Summerizer from '../assets/summarizer.png'
 
 
 export const projectinfo=([
@@ -14,7 +14,7 @@ export const projectinfo=([
         link:'https://github.com/ashrayachu/ai-summarizer',
         deploy:'https://ai-summarizerweb.netlify.app/',
         image:Summerizer,
-        lang:["React","javascript"]
+        lang:["react","javascript","css"]
     },
 {
     
@@ -51,14 +51,6 @@ export const projectinfo=([
     deploy:'https://ashrayachu.github.io/portfolio/',
     image:Chat,
     lang:["react","nodejs"]
-},
-{
-    title:'ecommerce',
-    link:'https:/ashraycp/github',
-    deploy:'https://ashrayachu.github.io/portfolio/',
-    image:Ecommerce,
-    lang:["react","javascript"]
-},
-
+}
 
 ])
