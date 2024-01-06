@@ -4,9 +4,18 @@ import Blog from '../assets/blog.png'
 import Doms from '../assets/domspizza.png'
 import Chat from '../assets/chat.png'
 import Ecommerce from '../assets/ecommerce.png'
+import Summerizer from '../assets/ai-summerizer'
 
 
 export const projectinfo=([
+    {
+    
+        title:'AI-summerizer',
+        link:'https://github.com/ashrayachu/ai-summarizer',
+        deploy:'https://ai-summarizerweb.netlify.app/',
+        image:Summerizer,
+        lang:["React","javascript"]
+    },
 {
     
     title:'Criminal Identification System',
